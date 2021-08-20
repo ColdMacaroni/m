@@ -10,7 +10,7 @@ main()
     {
         ungetc(ch, stdin);
         fgets(string, BUFSIZ, stdin);
-        for(int i = 0; string[i] != '\0'; i++)
+        for (int i = 0; string[i] != '\0'; i++)
         {
             if ('a' <= string[i] && string[i] <= 'z')
                 putchar('m');
